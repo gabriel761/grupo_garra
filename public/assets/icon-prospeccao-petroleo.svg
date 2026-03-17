@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 124 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<path id="Vector" d="M98.1667 15.5H25.8333V108.5H98.1667V15.5Z" fill="var(--fill-0, #E1FCAD)" stroke="var(--stroke-0, #E1FCAD)" stroke-width="4"/>
+<path id="Vector_2" d="M53.3277 61.7122C57.0253 56.8543 59.8755 50.1433 61.4162 46.5C64.1124 50.1433 69.967 59.2834 71.8159 64.1411C74.1267 70.2132 68.3493 77.5 61.4162 77.5C54.4833 77.5 48.7056 67.7843 53.3277 61.7122Z" fill="var(--fill-0, #122023)"/>
+<path id="Vector_3" d="M15.5 15.5H108.5" stroke="var(--stroke-0, #E1FCAD)" stroke-width="4" stroke-linecap="round"/>
+<path id="Vector_4" d="M15.5 108.5H108.5" stroke="var(--stroke-0, #E1FCAD)" stroke-width="4" stroke-linecap="round"/>
+<path id="Vector_5" d="M15.5 62H25.8333" stroke="var(--stroke-0, #E1FCAD)" stroke-width="4" stroke-linecap="round"/>
+<path id="Vector_6" d="M98.1667 62H108.5" stroke="var(--stroke-0, #E1FCAD)" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>
