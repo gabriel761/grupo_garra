@@ -1,16 +1,18 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
+import CTABackground from "@/public/assets/background.png"
+import Logo from "@/public/assets/logo.png"
 
 export default function CTABox() {
   return (
     <section
       id="contato"
-      className="relative w-full flex items-center justify-center overflow-hidden py-16 md:py-20 xl:py-[75px] px-4 min-h-[500px] md:min-h-[600px] xl:min-h-[637px]"
+      className="relative max-w-[1280px] m-auto flex items-center justify-center overflow-hidden py-16 md:py-20 xl:py-[75px] px-4 min-h-[500px] md:min-h-[600px] xl:min-h-[637px]"
     >
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="http://localhost:3845/assets/ffc63d733a4b0cc47d2a91bf1195e3b1c8c8243d.png"
+          src={CTABackground.src}
           alt="Padrão geométrico Grupo Garra"
           fill
           className="object-cover"
@@ -23,7 +25,7 @@ export default function CTABox() {
         {/* Logo */}
         <div className="relative w-[120px] h-[100px] md:w-[180px] md:h-[150px] xl:w-[240px] xl:h-[200px]">
           <Image
-            src="http://localhost:3845/assets/cd0831c80bcb13bf4f9f6e13e1edf3f4d20c97ae.png"
+            src={Logo.src}
             alt="Logo Grupo Garra"
             fill
             className="object-contain"

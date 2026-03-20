@@ -1,4 +1,5 @@
 import Image from "next/image";
+import contato from "@/public/assets/contato-hero.png"
 
 export default function ContatoHeroSection() {
   return (
@@ -26,7 +27,7 @@ export default function ContatoHeroSection() {
           {/* Right side - Image */}
           <div className="relative w-full md:flex-1 h-[300px] md:h-[500px] xl:h-[702px] rounded-lg overflow-hidden">
             <Image
-              src="http://localhost:3845/assets/e142e91b2a67fd21adfb88fb26b1eb8df3bbbd4c.png"
+              src={contato.src}
               alt="Pessoa digitando em laptop em ambiente de escritório"
               fill
               className="object-cover"

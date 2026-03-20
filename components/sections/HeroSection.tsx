@@ -1,16 +1,18 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
+import Logo from "@/public/assets/logo.png"
+import HomemDistancia from "@/public/assets/homem-na-distancia2.png"
 
 export default function HeroSection() {
   return (
     <section
       id="inicio"
-      className="relative w-full min-h-[541px] md:min-h-[798px] xl:min-h-[718px] flex items-center justify-center overflow-hidden"
+      className="relative max-w-[1280px] m-auto min-h-[541px] md:min-h-[798px] xl:min-h-[718px] flex items-center justify-center overflow-hidden"
     >
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="http://localhost:3845/assets/9d4fe84cb1b918b576193f71b15217bef21d3834.png"
+          src={HomemDistancia.src}
           alt="Engenheiro com capacete olhando para o horizonte ao pôr do sol"
           fill
           className="object-cover"
@@ -37,7 +39,7 @@ export default function HeroSection() {
         {/* Logo */}
         <div className="relative w-[100px] h-[80px] md:w-[160px] md:h-[130px] xl:w-[200px] xl:h-[160px]">
           <Image
-            src="http://localhost:3845/assets/cd0831c80bcb13bf4f9f6e13e1edf3f4d20c97ae.png"
+            src={Logo.src}
             alt="Logo Grupo Garra"
             fill
             className="object-contain"

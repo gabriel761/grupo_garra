@@ -1,22 +1,25 @@
 import Image from "next/image";
+import cost from "@/public/assets/-cost.png"
+import rocket from "@/public/assets/Startup.png"
+import time from "@/public/assets/Time Configuration.png"
 
 const values = [
   {
-    icon: "http://localhost:3845/assets/cc4cd7765cfde9f3599312a861cf884227694138.svg",
+    icon: cost.src,
     iconAlt: "Ícone de custo reduzido",
     title: "Custo reduzido",
     description:
       "Soluções com excelente relação custo-benefício, sem comprometer a qualidade ou a segurança.",
   },
   {
-    icon: "http://localhost:3845/assets/a73a625113f5d6c6d8845871704bc6bdc0478213.svg",
+    icon: rocket.src,
     iconAlt: "Ícone de variedade",
     title: "Variedade",
     description:
       "Atuamos em múltiplos setores com um portfólio completo de serviços industriais, metálicos e construtivos.",
   },
   {
-    icon: "http://localhost:3845/assets/c064df0bc8dcb74391d0ba1e86436fdd879de158.svg",
+    icon: time.src,
     iconAlt: "Ícone de eficiência",
     title: "Eficiência",
     description:

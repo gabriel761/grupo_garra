@@ -2,12 +2,13 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import logoMenu from "../../public/assets/logo-menu.png"
+
 
 const navLinks = [
   { label: "Início", href: "/" },
   { label: "Sobre nós", href: "/sobre-nos" },
   { label: "Nossos serviços", href: "/nossos-servicos" },
-  { label: "Nossos projetos", href: "/nossos-projetos" },
   { label: "Contato", href: "/contato" },
 ];
 
@@ -21,7 +22,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <div className="relative w-[52px] h-[52px] xl:w-[60px] xl:h-[60px] shrink-0">
             <Image
-              src="http://localhost:3845/assets/cd0831c80bcb13bf4f9f6e13e1edf3f4d20c97ae.png"
+              src={logoMenu.src}
               alt="Logo Grupo Garra"
               fill
               className="object-contain"

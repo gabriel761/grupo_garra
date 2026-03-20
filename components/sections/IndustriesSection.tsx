@@ -1,24 +1,24 @@
 import Image from "next/image";
 import SectionHeader from "@/components/ui/SectionHeader";
 import Button from "@/components/ui/Button";
+import Petroleo from "@/public/assets/petroleo.png"
+import Engine from "@/public/assets/meric-dagli-i_14EbINjKY-unsplash.png"
+import Computer from "@/public/assets/computador.png"
 
 const industries = [
   {
-    image:
-      "http://localhost:3845/assets/be85e9f589c98379b29a91ea7c9c8853c600792d.png",
+    image: Petroleo.src,
     alt: "Plantas industriais com pôr-do-sol ao fundo",
     title:
       "Fabricação de equipamentos e peças para extração e prospecção de petróleo.",
   },
   {
-    image:
-      "http://localhost:3845/assets/92fc14c031fc53a7f366011574c02c2fd3cc968a.png",
+    image: Engine.src,
     alt: "Equipamentos industriais com canos de metal e engrenagens",
     title: "Instalação de máquinas e equipamentos industriais",
   },
   {
-    image:
-      "http://localhost:3845/assets/c7ddb79cce5654ccf4ac9039583017b6043b88b1.png",
+    image: Computer.src,
     alt: "Duas pessoas analisando planta de edifício",
     title: "Construção de edifícios",
   },
@@ -48,8 +48,7 @@ export default function IndustriesSection() {
                 className="object-cover"
                 unoptimized
               />
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-[rgba(21,32,19,0.72)]" />
+              
               {/* Text overlay centered vertically */}
               <div className="absolute inset-0 flex items-center justify-center px-4">
                 <p

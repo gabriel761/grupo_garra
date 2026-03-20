@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
+import meeting from "@/public/assets/meeting.png"
 
 export default function ServicesSection() {
   return (
@@ -10,10 +11,10 @@ export default function ServicesSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="http://localhost:3845/assets/7f5f8092872c17f0b767b3d653742dbe1e9e172b.png"
+          src={meeting.src}
           alt="Equipe de engenharia trabalhando"
           fill
-          className="object-cover"
+          className="object-cover object-bottom"
           unoptimized
         />
         <div className="absolute inset-0 bg-[rgba(21,32,19,0.7)]" />

@@ -1,9 +1,10 @@
 import Image from "next/image";
 import SectionHeader from "@/components/ui/SectionHeader";
+import Team from "@/public/assets/time.png"
 
 export default function SobreHeroSection() {
   return (
-    <section className="w-full bg-[#122023]">
+    <section className="max-w-[1280px] m-auto bg-[#122023]">
       {/* Top content: two-column text block */}
       <div className="max-w-[1280px] mx-auto px-4 md:px-12 xl:px-[62px] pt-10 xl:pt-[74px] pb-10">
         {/* Top divider */}
@@ -42,7 +43,7 @@ export default function SobreHeroSection() {
       {/* Full-width hero photo */}
       <div className="relative w-full h-[260px] md:h-[420px] xl:h-[594px]">
         <Image
-          src="http://localhost:3845/assets/6e83ea0f4179de1b338be6c298512afa4612d928.png"
+          src={Team.src}
           alt="Profissionais da construção civil usando coletes refletivos e capacetes, sorrindo e apertando as mãos em um canteiro de obras"
           fill
           className="object-cover"

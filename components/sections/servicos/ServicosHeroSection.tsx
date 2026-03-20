@@ -1,4 +1,5 @@
 import Image from "next/image";
+import newTeam from "@/public/assets/new team.png"
 
 export default function ServicosHeroSection() {
   return (
@@ -6,7 +7,7 @@ export default function ServicosHeroSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="http://localhost:3845/assets/daff1719f5536073fd2118d138c2a053ef195cf7.png"
+          src={newTeam.src}
           alt="Profissionais da indústria trabalhando com equipamentos de precisão"
           fill
           className="object-cover"
@@ -14,7 +15,7 @@ export default function ServicosHeroSection() {
           unoptimized
         />
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-[rgba(21,32,19,0.7)]" />
+        
       </div>
 
       {/* Content */}
